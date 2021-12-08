@@ -12,7 +12,9 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Joson</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+  <title>미美취라</title>
 
 
   <!-- bootstrap core css -->
@@ -20,7 +22,7 @@
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/login_style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
@@ -33,9 +35,9 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <h3>
-              Joson
+              미美취라
             </h3>
-            <span> college</span>
+            <span>hobby</span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,25 +46,21 @@
           <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">미美취라<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About </a>
+                <a class="nav-link" href="meeting.html"> Metting </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="course.html"> Courses </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="event.html"> Events </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
+                <a class="nav-link" href="sharing.html"> Sharing </a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="login.html">Login</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+              <!-- Search form -->
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search" style="margin-right: 5px;">  
               <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
             </form>
           </div>
@@ -77,26 +75,30 @@
   <section class="login_section layout_padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
+        <div class="col-md-12">
+          <div class="detail-box" style="color: black" id="detail-box-center" >
             <h3>
-              GET ONLINE COURSES FOR FREE
+              취미를 만들고 싶은 당신을 위해
             </h3>
             <p>
-              Create your free account now and get immediate access to 100s of
-              online courses
+              "취미" 와 "친구" 가 함께한다
             </p>
             <a href="">
-              REGISTER NOW
+              <img src="./images/free-icon-google.png"  width="30px" height="25px"/>
+                구글로 로그인
+            </a>
+            <a href="">
+              <img src="./images//naver.png" width="30px" height="25px" />
+                네이버로 로그인
             </a>
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="login_form">
-            <h5>
+            <h5 style="color: black;">
               Login Now
             </h5>
-            <form action="">
+            <form action="index.html">
               <div>
                 <input type="email" placeholder="Email " />
               </div>
@@ -106,7 +108,7 @@
               <button type="submit">Login</button>
             </form>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -124,86 +126,60 @@
             </h5>
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">미美취라 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About </a>
+                <a class="nav-link" href="meeting.html"> 모임 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="course.html"> Courses </a>
+                <a class="nav-link" href="sharing.html"> 공유 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="event.html"> Events </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="register.html">회원가입</a>
+              </li> -->
             </ul>
           </div>
         </div>
         <div class="col-md-3">
           <div class="info_course">
             <h5>
-              TOP RATED COURSE
+              "미美취라"
             </h5>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humou
+              무료한 당신을 위해 OO이 준비했다
+              취향으로 골라가는 취미를 얻어가자
             </p>
+            <div class="info_news">
+              <form action="index.html">
+                <button>
+                  미美취라
+                </button>
+              </form>
+            </div>
           </div>
         </div>
 
         <div class="col-md-5 offset-md-1">
           <div class="info_news">
             <h5>
-              FOR ANY QUERY, PLEASE WRITE TO US
+              "미美취라"
             </h5>
             <div class="info_contact">
               <a href="">
-                Location
+                주소: 서울시 금천구 가산동 426-5 월드메르디앙
               </a>
               <a href="">
-                demo@gmail.com
+                이메일: kosmo@gmail.com
               </a>
               <a href="">
-                Call : +01 1234567890
+                전화번호: +01 1234567890
               </a>
             </div>
-            <form action="">
-              <input type="text" placeholder="Enter Your email" />
-              <button>
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- end info section -->
-
-  <!-- footer section -->
-  <footer class="container-fluid footer_section">
-    <p>
-      &copy; 2021 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </footer>
-
-  <footer class="container-fluid footer_section">
-  
-    <p>
-      Distributed By 
-      <a href="https://themewagon.com/">Themewagon</a>
-    </p>
-
-</footer>
-  <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
